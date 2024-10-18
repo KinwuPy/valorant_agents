@@ -148,8 +148,10 @@ footer {
 }
 .card img {
 	margin-top: 15px;
-    width: 360px;
-    height: 540px;
+    max-width: 360px;
+    max-height: 540px;
+    min-width: 300px;
+    max-height: 450px;
     object-fit: cover;
 }
 .card h3 {
