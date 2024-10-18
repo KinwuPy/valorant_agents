@@ -42,7 +42,7 @@ ul {
 }
 nav ul li {
     display: inline;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 li {
     display: list-item;
@@ -57,7 +57,6 @@ nav ul li a {
     text-decoration: none;
     padding: 5px 10px;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-    width: 150px;
 }
 nav ul li a:hover {
   background: #FF4655;
@@ -183,13 +182,24 @@ footer {
     width: 100%;
     max-width: 1200px;
 }
-@media (max-width: 544px){
+@media (max-width: 585px){
 	header{
 		text-align: left;
+		background: linear-gradient(#101B21 65%, #FF4655);
+	}
+	.logo{
+		display: none;
 	}
 	nav ul{
 		flex-direction: column;
 		justify-content: left;
+		text-align: left;
+	}
+}
+@media (min-width: 586px) and (max-width: 831px) {
+	nav ul{
+		flex-direction: row;
+		justify-content: center;
 		text-align: left;
 	}
 }
