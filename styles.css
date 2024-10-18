@@ -49,10 +49,15 @@ nav ul li a {
     color: #ECE8E3;
     text-transform: uppercase;
     font-size: 1.1em;
+    text-align: center;
     font-weight: bold;
     text-decoration: none;
     padding: 5px 10px;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  background: #FF4655;
+  color: #101B21;
 }
 main {
     padding: 20px;
@@ -135,6 +140,9 @@ footer {
     min-width: 300px;
     color: #101B21;
 }
+.card:hover {
+  transform: scale(1.015);
+}
 .card img {
 	margin-top: 15px;
     width: 360px;
@@ -161,7 +169,10 @@ footer {
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.us-card:hover {
+  transform: scale(1.015);
 }
 .us-card img{
 	margin-top: -20px;
