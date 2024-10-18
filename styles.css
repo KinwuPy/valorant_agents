@@ -125,26 +125,21 @@ footer {
     gap: 20px;
 }
 .card {
-	display: flex;
-	flex-direction: row|column;
-    background: linear-gradient(0.25turn, #FF4655 65%, #ECE8E3);
+    background: linear-gradient(#101B21, #FF4655 65%, #ECE8E3);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    width: 100%;
-    max-width: 1150px;
-    min-width: 1000px;
+    width: 97%;
+    max-width: 360px;
+    min-width: 300px;
     color: #101B21;
 }
 .card img {
-	background: linear-gradient(0.25turn, #101B21, #FF4655);
-    width: 300px;
-    height: 450px;
+	margin-top: 15px;
+    width: 360px;
+    height: 540px;
     object-fit: cover;
-}
-.card .text-card {
-    padding: 15px;
 }
 .card h3 {
     padding: 15px;
@@ -161,10 +156,15 @@ footer {
 .us-card {
     background-color: #f8f9fa;
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     transition: box-shadow 0.3s ease-in-out;
+}
+.us-card img{
+	margin-top: -20px;
+    width: 100%;
+    max-width: 1200px;
 }
